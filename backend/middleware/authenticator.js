@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken'
 import { Akey } from '../config/config.js'
 
 const authenticate = async (req, res, next) =>{
-    //const {token} = req.Headers.Cookie
+    //const {token  } = req.Headers.Cookie
     console.log(req.headers)
     return
     console.log(token)

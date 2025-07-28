@@ -9,8 +9,7 @@ const cluster = process.env.cluster
 
 const port = process.env.PORT
 const Akey = process.env.THEREALSECRETKEY
-//const url = `mongodb+srv://${dad}:${dkey}@${cluster}.mongodb.net/${TDB}?retryWrites=true&w=majority`
-const url = `mongodb+srv://adminAuthapi:MdJ3CV86SMS5KjQ0@cluster0.7kei1m1.mongodb.net/AuthAPI?retryWrites=true&w=majority&appName=Cluster0`
+const url = `mongodb+srv://${dad}:${dkey}@${cluster}/${TDB}?retryWrites=true&w=majority&appName=Cluster0`
             
 export  {
     port,
